@@ -1,0 +1,8 @@
+console.log("Welcome to my Node.js script!")
+        console.log("Hello JavaScript World!");
+
+        let a= 10;
+        let b= 20;
+        let sum = a + b;
+        console.log("The sum is: " + sum);
+        

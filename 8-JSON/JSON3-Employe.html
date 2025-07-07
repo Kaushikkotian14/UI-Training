@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON in Browser</title>
+</head>
+<body>
+    <h2>Employee Data</h2>
+    <pre id="jsonOutput"></pre>
+
+    <script>
+        const employee = {
+            "id": 101,
+            "name": "Ramesh ",
+            "age": 30,
+            "gender": "Male",
+            "department": "Software Engineering",
+            "designation": "Senior Developer",
+            "salary": 75000,
+            "email": "ramesh@gmail.com",
+            "phone": "9999999999",
+            "address": {
+                "street": "123 Main St",
+                "city": "Hyderabad",
+                "state": "TS",
+                "zip": "500010",
+                "country": "India"
+            },
+            "skills": ["Java", "Spring Boot", "Microservices", "MongoDB"],
+            "joining_date": "2020-06-15",
+            "is_active": true
+        };
+
+        document.getElementById("jsonOutput").textContent = JSON.stringify(employee, null, 4);
+    </script>
+</body>
+</html>

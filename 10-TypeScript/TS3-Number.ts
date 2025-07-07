@@ -1,0 +1,13 @@
+let num : number=2;
+let decimal:number =2.5;
+let hex:number =0xf00d;
+let binary:number =0b1010;
+let octal:number =0o744;
+let notANumber:number =NaN;let infinity:number =Infinity;
+console.log(num);
+console.log(decimal);
+console.log(hex);
+console.log(binary);
+console.log(octal);
+console.log(notANumber);
+console.log(infinity);

@@ -1,0 +1,14 @@
+var num = 2;
+var decimal = 2.5;
+var hex = 0xf00d;
+var binary = 10;
+var octal = 484;
+var notANumber = NaN;
+var infinity = Infinity;
+console.log(num);
+console.log(decimal);
+console.log(hex);
+console.log(binary);
+console.log(octal);
+console.log(notANumber);
+console.log(infinity);
