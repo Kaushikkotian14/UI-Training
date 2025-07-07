@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Market Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css/registration.css">
+</head>
+<body>
+  <nav>
+        <ul>
+            <li><a id="Home" href="Home.html">Click for back to Home</a></li>
+        </ul>
+    </nav>
+        <div class="registration-container">
+        <h2 style ="color: hsl(0, 0%, 100%);">Create Account</h2>
+        <form action="login.html"  >
+            <div class="form-group">
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required autofocus>
+            </div>
+            <div class="form-group">
+                <input type="date" id="dob" name="dob" placeholder="Select your date of birth" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="username" name="username" placeholder="Choose a username" required>
+            </div>
+            
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="Enter password" required >
+            </div>
+            <div class="form-group">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter password" required minlength="6">
+            </div>
+            <button type="submit" class="register-btn">Register</button>
+        </form>
+    </div>
+</body>
+</html>
+

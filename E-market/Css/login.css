@@ -1,0 +1,78 @@
+body {
+            font-family: Arial, sans-serif;
+             background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: #007bff;
+            padding: 10px 24px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: auto;
+            border-radius: 0 0 8px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px 0 0;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 300px;
+            margin: 40px auto;
+            background: rgba(0,0,0,0.6);
+            padding: 32px 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: #333;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .contact-info {
+            margin-top: 32px;
+            text-align: center;
+            color: #555;
+        }
+        .contact-info p {
+            margin: 6px 0;
+        }

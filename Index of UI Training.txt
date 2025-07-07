@@ -1,0 +1,58 @@
+Day1: 19/06/2025
+  1.HTML:
+    HTML,header,title,body
+    h1,<a href=, input,div, form action,<textarea>,<button>
+    <br>,<table>,<span>,<ol>,<ul>,<p>,<hr>,<img>
+    Task1:Registration page 
+    Task2:landing  hyperlinks page using <a href
+
+  2.CSS:
+    <style>,rgb color,center,padding,css classes
+    Task3:Registration pg using css
+  
+  3.HTML5:
+    <number>,<date>,week,month,tel,
+    email,nav,header,footer,audio,video
+    Task4:Website designing using html5 tags
+    
+  4.CSS3:
+    rgba,animations,media,shadow text and box,media querry,newspaper column
+    Task5:Final eCommerce Website with all above technologies 
+
+Day2 : 20/6/2025
+  5.JavaScript
+    let,var,const
+    functions,conditions(if,switch)
+    loops(while,do while,for)
+    arrays,getElementById
+    events(onclick,onsubmit,onload)
+    Validations,debugging,import files
+    Exception handling(try,catch,finally,throw)
+    prompt,parseInt,alert,typeof
+
+  6.ES6-JavaScript:
+    Arrow functions
+    Classes,constructor,inheritance,Objects
+
+  7.Advance JS:
+    Fetch(url)(for fetching)
+    axios(CURD operations)
+    promises APIs, async,await
+
+  8.JSON:
+    Json data:key and values,arrays
+
+  9.Node JS:
+    Modules:http,fs,Custom Modules
+    fileWrite,fileRead
+    fileReadSync,renameSync("mydata","renamedata");
+    NodeJS with JSONCreate own Serever
+    Call our own module
+  
+  10.
+
+   
+
+
+
+

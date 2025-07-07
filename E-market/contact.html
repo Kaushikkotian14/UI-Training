@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - E-market</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css/contact.css">
+    <script>
+    function validateForm(event) {
+      const name = document.getElementById('name');
+      const email = document.getElementById('email');
+      const message = document.getElementById('message');
+      let valid = true;
+      let errorMsg = "";
+
+      if (name.value.trim().length < 2) {
+        valid = false;
+        errorMsg += "Name must be at least 2 characters long.\n";
+      }
+
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email.value.trim())) {
+        valid = false;
+        errorMsg += "Please enter a valid email address.\n";
+      }
+
+      if (message.value.trim().length === 0) {
+        valid = false;
+        errorMsg += "Message cannot be empty.\n";
+      }
+
+      if (!valid) {
+        alert(errorMsg);
+        event.preventDefault();
+      }
+    }
+    </script>
+</head>
+<body>
+      <nav>
+        <ul>
+            <li><a id="Home" href="Home.html">Click for back to Home</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2 style ="color: hsl(0, 0%, 100%);">Contact Us</h2>
+        <form action="home.html" onsubmit="validateForm(event)">
+            <input type="text" id="name" name="name" placeholder="Your Name" autofocus required>
+            <input type="text" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
