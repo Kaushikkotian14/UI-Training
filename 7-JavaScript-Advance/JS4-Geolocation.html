@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>JavaScript Geolocation</h1>
+    <p>Click the button to get your coordinates.</p>
+    <button onclick="getLocation()">ClickMe:Find the Geolocation Location</button>
+    <p id="myid">...</p>
+
+    <script>
+        var x = document.getElementById("myid");
+        function getLocation() {
+            try {
+                navigator.geolocation.getCurrentPosition(myPosition);
+            } catch (err) {
+                x.innerHTML = err;
+            }         }
+        function myPosition(position) {            
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
+</body>
+
+</html>
